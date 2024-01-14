@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <title>iphone landing page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#"><img src="./imgs/logo.png" class="logo" /></a>
+
+        <nav>
+          <i class="fas fa-bars" onclick="toggle()"></i>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="txt">
+          <h2>Iphone 13 Pro Max</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            vero nam .
+          </p>
+          <a href="#">All Products</a>
+        </div>
+        <div class="image">
+          <img src="./imgs/0.png" id="image" alt="" />
+        </div>
+      </div>
+      <div class="icons">
+        <img onclick="phone(this.src) ; color('#000')  " src="./imgs/0.png" />
+        <img onclick="phone(this.src) ; color('#247ec8')" src="./imgs/1.png" />
+        <img onclick="phone(this.src) ; color('#1e1e1e')" src="./imgs/2.png" />
+        <img onclick="phone(this.src) ; color('#c79b53')" src="./imgs/3.png" />
+        <img onclick="phone(this.src) ; color('#c82525')" src="./imgs/4.png" />
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
